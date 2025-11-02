@@ -5,7 +5,7 @@ It is deployed on **Kubernetes (AWS EKS)** and exposed via an **AWS Load Balance
 
 ### 🔹 High-Level Architecture
 
-```mermaid
+```
 flowchart TD
     A[User / Browser / Client App] -->|HTTPS Request| B[Cloudflare CDN + SSL]
     B -->|HTTP| C[AWS Load Balancer - ELB]
@@ -23,4 +23,5 @@ flowchart TD
     style E fill:#b3e6ff,stroke:#333,stroke-width:1px
     style F fill:#c2f0c2,stroke:#333,stroke-width:1px
     style G fill:#f4cccc,stroke:#333,stroke-width:1px
-
+```
+```
