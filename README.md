@@ -43,10 +43,14 @@ Response -
     "licensed": true
 }
 ```
-2. To post the image 
+2. To post the image
+3. 
 **POST URL -** https://thejavaguy.site/ocr/api/ocr
+
 **Parameters -**
+
 file - "file=@/path/to/sample-image.pdf"
+
 ocrInputList -
 ```json
 Request -
@@ -65,7 +69,9 @@ Request -
   {"label":"RESPONSIBLE STAFF","key":"end","direction":"BOTTOM","topOf":"responsible staff","bottomOf":"events","tableColumn":true,"keyColumn":"name"}
 ]
 ```
+
 **Sample Response:**
+
 ```json
 Response -
 {
@@ -73,9 +79,13 @@ Response -
     "status": "PROCESSING"
 }
 ```
-3. To get the OCR response 
+
+3. To get the OCR response
+
 **GET URL -** https://thejavaguy.site/ocr/api/license
+
 **Sample Response:**
+
 ```json
 {
     "status": "COMPLETED",
