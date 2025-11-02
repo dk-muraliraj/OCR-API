@@ -75,14 +75,14 @@ Request -
 ```json
 Response -
 {
-    "jobId": "c6e24358-4e77-49a1-9df0-f4dd71038a22",
+    "jobId": "XXXXX-4e77-49a1-9df0-XXXXX",
     "status": "PROCESSING"
 }
 ```
 
 3. To get the OCR response
 
-**GET URL -** https://thejavaguy.site/ocr/api/license
+**GET URL -** https://thejavaguy.site/ocr/api/status/<jobId>
 
 **Sample Response:**
 
