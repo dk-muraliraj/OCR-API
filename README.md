@@ -7,12 +7,12 @@ It is deployed on **Kubernetes (AWS EKS)** and exposed via an **AWS Load Balance
 
 ```
 flowchart TD
-    A[User / Browser / Client App] -->|HTTPS Request| B[Cloudflare CDN + SSL]
-    B -->|HTTP| C[AWS Load Balancer - ELB]
-    C --> D[Kubernetes Cluster - EKS]
-    D --> E[OCR Service Pod (Spring Boot)]
-    E --> F[Tesseract OCR Engine]
-    E --> G[Redis - Cache/Storage]
+    A[User / Browser / Client App] -->|HTTPS Request| B["Cloudflare CDN + SSL"]
+    B -->|HTTP| C["AWS Load Balancer - ELB"]
+    C --> D["Kubernetes Cluster - EKS"]
+    D --> E["OCR Service Pod - Spring Boot"]
+    E --> F["Tesseract OCR Engine"]
+    E --> G["Redis - Cache / Storage"]
     F -->|Extracted Text| E
     E -->|JSON Response| A
 
