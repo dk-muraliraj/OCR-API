@@ -49,7 +49,7 @@ Response -
 
 **Parameters -**
 
-file - "file=@/path/to/sample-image.pdf"
+file - "@/path/to/sample-image.pdf"
 
 ocrInputList -
 ```json
