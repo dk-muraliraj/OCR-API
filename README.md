@@ -39,4 +39,3 @@ Response -
     "remainingPages": 974,
     "licensed": true
 }
-
