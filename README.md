@@ -27,8 +27,10 @@ flowchart TD
 
 ### 🔹 API Usage
 
-URL - https://thejavaguy.site/ocr/api/license
-```mermaid
+**URL -** https://thejavaguy.site/ocr/api/license
+
+**Sample Response:**
+```json
 Response -
 {
     "licenseData": {
