@@ -28,7 +28,7 @@ flowchart TD
 ### 🔹 API Usage
 
 URL - https://thejavaguy.site/ocr/api/license
-
+```mermaid
 Response -
 {
     "licenseData": {
@@ -40,3 +40,4 @@ Response -
     "remainingPages": 974,
     "licensed": true
 }
+```
