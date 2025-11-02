@@ -23,6 +23,7 @@ flowchart TD
     style E fill:#b3e6ff,stroke:#333,stroke-width:1px
     style F fill:#c2f0c2,stroke:#333,stroke-width:1px
     style G fill:#f4cccc,stroke:#333,stroke-width:1px
+```
 
 ### 🔹 API Usage
 
