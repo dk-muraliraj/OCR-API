@@ -44,7 +44,7 @@ Response -
 }
 ```
 2. To post the image
-3. 
+
 **POST URL -** https://thejavaguy.site/ocr/api/ocr
 
 **Parameters -**
@@ -82,7 +82,7 @@ Response -
 
 3. To get the OCR response
 
-**GET URL -** https://thejavaguy.site/ocr/api/status/ &lt;jobId&gt;
+**GET URL -** https://thejavaguy.site/ocr/api/status/&lt;jobId>
 
 **Sample Response:**
 
