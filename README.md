@@ -82,7 +82,7 @@ Response -
 
 3. To get the OCR response
 
-**GET URL -** https://thejavaguy.site/ocr/api/status/&lt;jobId>
+**GET URL -** https://thejavaguy.site/ocr/api/status/<jobId>
 
 **Sample Response:**
 
