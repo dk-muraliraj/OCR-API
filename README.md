@@ -30,10 +30,6 @@ flowchart TD
 1. To get the license details
 **GET URL -** https://thejavaguy.site/ocr/api/license
 
-**Sample Image:**
-
-<img src="assets/sample.png" width="600"/>
-
 **Sample Response:**
 ```json
 Response -
@@ -49,6 +45,10 @@ Response -
 }
 ```
 2. To post the image
+
+**Sample Image:**
+
+<img src="assets/sample.png" width="600"/>
 
 **POST URL -** https://thejavaguy.site/ocr/api/ocr
 
