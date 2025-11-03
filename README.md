@@ -26,8 +26,13 @@ flowchart TD
 ```
 
 ### 🔹 API Usage
+
 1. To get the license details
 **GET URL -** https://thejavaguy.site/ocr/api/license
+
+**Sample Image:**
+
+<img src="assets/sample.png" width="600"/>
 
 **Sample Response:**
 ```json
